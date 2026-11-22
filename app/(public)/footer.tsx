@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 
 import { FiSend, FiMessageCircle } from "react-icons/fi";
+import CurrentYear from "./current-year"
 
 const footerLinks = [
   {
@@ -222,7 +223,7 @@ export default function Footer() {
             </div>
 
             <p className="shrink-0 text-sm text-slate-300">
-              © {new Date().getFullYear()} Vault. All rights reserved.
+              © <CurrentYear /> BitTrade. All rights reserved.
             </p>
           </div>
 

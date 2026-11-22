@@ -1,3 +1,4 @@
+// app/(user)/dashboard/page.tsx
 import EmptyState from "@/components/EmptyState";
 
 export default function DashboardPage() {
