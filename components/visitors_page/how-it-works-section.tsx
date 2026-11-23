@@ -38,7 +38,7 @@ const steps = [
 
 export default function HowItWorksSection() {
   return (
-    <section id="how-it-works" className="bg-slate-50 py-24">
+    <section id="how-it-works" className="bg-[#101510] py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
         {/* Section heading */}
@@ -47,11 +47,11 @@ export default function HowItWorksSection() {
             How it works
           </p>
 
-          <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 md:text-5xl">
+          <h2 className="mt-4 text-3xl font-bold tracking-tight text-shadow-gray-50 md:text-5xl">
             Get started in minutes
           </h2>
 
-          <p className="mt-5 text-base leading-7 text-slate-500">
+          <p className="mt-5 text-base leading-7 text-shadow-gray-50">
             Start your crypto investment journey in four simple steps.
             Create an account, verify your identity, fund your wallet
             and explore the digital asset market.
