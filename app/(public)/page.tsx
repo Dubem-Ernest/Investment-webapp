@@ -77,12 +77,12 @@ export default function Home() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              {/* <a
+              <a
                 href="/register"
                 className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-600"
               >
                 Get Started <span className="ml-2">→</span>
-              </a> */}
+              </a>
 
               <a
                 href="/register"
