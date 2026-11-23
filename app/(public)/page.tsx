@@ -84,12 +84,6 @@ export default function Home() {
                 Get Started <span className="ml-2">→</span>
               </a>
 
-              <a
-                href="/register"
-                className="mt-7 inline-flex w-fit items-center gap-2 rounded-lg bg-green-500 px-6 py-3 font-semibold text-black transition hover:bg-green-400"
-              >
-                Explore opportunities
-              </a>
             </div>
             </div>
 
