@@ -196,9 +196,7 @@ export default function RegisterPage() {
 
         <p className="pt-2 text-center text-sm text-slate-500">
           Already have an account?{" "}
-          <Link href="/login" className="font-semibold text-[#0f3d38] hover:underline">
-            Log in
-          </Link>
+          <a href="/login" className="font-semibold text-[#0f3d38] hover:underline">Log in</a>
         </p>
       </form>
     </AuthShell>

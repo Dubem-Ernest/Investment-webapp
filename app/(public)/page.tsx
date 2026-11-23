@@ -40,19 +40,18 @@ export default function Home() {
 
           {/* Authentication actions */}
           <div className="flex items-center gap-3">
-            <Link
-              href="http://localhost:3000/login"
+            <a
+              href="/login"
               className="hidden text-sm font-semibold text-slate-700 hover:text-emerald-600 sm:block"
             >
               Log in
-            </Link>
-
-            <Link
-              href="http://localhost:3000/register"
+            </a>
+            <a
+              href="/register"
               className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-600"
             >
               Get Started
-            </Link>
+            </a>
           </div>
         </nav>
       </header>
@@ -78,19 +77,28 @@ export default function Home() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <Link
-                 href="http://localhost:3000/register"
-                className="rounded-lg bg-green-500 px-7 py-3.5 font-semibold text-black transition hover:bg-green-400"
+              {/* <a
+                href="/register"
+                className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-600"
               >
                 Get Started <span className="ml-2">→</span>
-              </Link>
+              </a> */}
 
-              <Link
+              <a
+                href="/register"
+                className="mt-7 inline-flex w-fit items-center gap-2 rounded-lg bg-green-500 px-6 py-3 font-semibold text-black transition hover:bg-green-400"
+              >
+                Explore opportunities
+              </a>
+            </div>
+            </div>
+
+              <a
                 href="#features"
                 className="rounded-lg border border-slate-700 px-7 py-3.5 font-semibold text-white transition hover:bg-slate-900"
               >
                 Explore Platform
-              </Link>
+              </a>
             </div>
 
             <p className="mt-8 text-sm text-slate-500">
@@ -202,10 +210,9 @@ export default function Home() {
         </div>
       </section>
 
-          <FeaturesSection/>
-          <SpotlightSection/>
-          <HowItWorksSection/>
-      
+      <FeaturesSection />
+      <SpotlightSection />
+      <HowItWorksSection />
     </main>
   );
 }

@@ -18,6 +18,8 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
 
+  allowedDevOrigins: ["192.168.1.50"], // your computer's LAN IP
+
   turbopack: {
     rules: {
       "*.css": {
