@@ -13,7 +13,7 @@ export const packages: InvestmentPackage[] = [
     description: "A short plan to get familiar with how investing works.",
     minInvestment: 1000,
     durationDays: 30,
-    returnPercent: 15,
+    returnPercent: 20,
     features: [
       "Plan length: 30 days",
       "Track progress on your dashboard",
@@ -26,9 +26,9 @@ export const packages: InvestmentPackage[] = [
     slug: "growth",
     name: "Growth",
     description: "A balanced plan for investors building over a few months.",
-    minInvestment: 500,
+    minInvestment: 2500,
     durationDays: 30,
-    returnPercent: 20,
+    returnPercent: 40,
     features: [
       "Plan length: 3 months",
       "Track progress on your dashboard",
@@ -43,7 +43,7 @@ export const packages: InvestmentPackage[] = [
     name: "Premium",
     description: "A longer plan for larger, patient investments.",
     minInvestment: 2000,
-    durationDays: 30,
+    durationDays: 50,
     returnPercent: 30,
     features: [
       "Plan length: 6 months",
