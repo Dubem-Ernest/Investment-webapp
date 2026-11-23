@@ -31,11 +31,11 @@ export default function PackagesSection() {
           ))}
         </Stagger>
 
-        <p className="mx-auto mt-12 max-w-3xl text-center text-xs leading-6 text-slate-500">
+        {/* <p className="mx-auto mt-12 max-w-3xl text-center text-xs leading-6 text-slate-500">
           Figures shown are illustrative targets, not guarantees. Returns can
           be lower than shown, and you may lose some or all of the amount you
           invest. Only invest money you can afford to lose.
-        </p>
+        </p> */}
       </div>
     </section>
   );
