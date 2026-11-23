@@ -252,7 +252,11 @@ export default function Home() {
         <FadeIn inView>
           <HowItWorksSection />
         </FadeIn>
+
+        <PackagesSection />
       </main>
     </MotionProvider>
+
+    
   );
 }
