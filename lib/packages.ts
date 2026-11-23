@@ -30,7 +30,7 @@ export const packages: InvestmentPackage[] = [
     durationDays: 30,
     returnPercent: 40,
     features: [
-      "Plan length: 3 months",
+      "Plan length: 1 months",
       "Track progress on your dashboard",
       "Request withdrawal at maturity",
       "Priority support",
@@ -46,7 +46,7 @@ export const packages: InvestmentPackage[] = [
     durationDays: 30,
     returnPercent: 50,
     features: [
-      "Plan length: 6 months",
+      "Plan length: 1 months",
       "Track progress on your dashboard",
       "Request withdrawal at maturity",
       "Dedicated support",
