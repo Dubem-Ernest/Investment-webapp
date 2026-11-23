@@ -47,11 +47,11 @@ export default function HowItWorksSection() {
             How it works
           </p>
 
-          <h2 className="mt-4 text-3xl font-bold tracking-tight text-shadow-gray-50 md:text-5xl">
+          <h2 className="mt-4 text-3xl font-bold tracking-tight text-shadow-white md:text-5xl">
             Get started in minutes
           </h2>
 
-          <p className="mt-5 text-base leading-7 text-shadow-gray-50">
+          <p className="mt-5 text-base leading-7 text-shadow-white">
             Start your crypto investment journey in four simple steps.
             Create an account, verify your identity, fund your wallet
             and explore the digital asset market.
