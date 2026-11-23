@@ -42,7 +42,7 @@ export const packages: InvestmentPackage[] = [
     slug: "premium",
     name: "Premium",
     description: "A longer plan for larger, patient investments.",
-    minInvestment: 2000,
+    minInvestment: 4000,
     durationDays: 30,
     returnPercent: 50,
     features: [
