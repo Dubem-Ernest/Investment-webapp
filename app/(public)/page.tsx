@@ -40,18 +40,18 @@ export default function Home() {
 
           {/* Authentication actions */}
           <div className="flex items-center gap-3">
-            <a
+            <Link
               href="/login"
               className="hidden text-sm font-semibold text-slate-700 hover:text-emerald-600 sm:block"
             >
               Log in
-            </a>
-            <a
+            </Link>
+            <Link
               href="/register"
               className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-600"
             >
               Get Started
-            </a>
+            </Link>
           </div>
         </nav>
       </header>
@@ -77,22 +77,19 @@ export default function Home() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <a
+              <Link
                 href="/register"
-                className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-600"
+                className="rounded-lg bg-green-500 px-7 py-3.5 font-semibold text-black transition hover:bg-green-400"
               >
                 Get Started <span className="ml-2">→</span>
-              </a>
+              </Link>
 
-            </div>
-            </div>
-
-              <a
+              <Link
                 href="#features"
                 className="rounded-lg border border-slate-700 px-7 py-3.5 font-semibold text-white transition hover:bg-slate-900"
               >
                 Explore Platform
-              </a>
+              </Link>
             </div>
 
             <p className="mt-8 text-sm text-slate-500">
